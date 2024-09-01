@@ -100,17 +100,17 @@ python3 -m venv crm_env
 
 ### Activate the Virtual Environment:
 
-    On macOS/Linux:
+On macOS/Linux:
 
-    ```bash
-    python3 -m venv crm_env
-    ```
+```bash
+python3 -m venv crm_env
+```
 
-    On Windows:
+On Windows:
 
-    ```bash 
-    crm_env\Scripts\activate 
-    ```
+```bash 
+crm_env\Scripts\activate 
+```
 
 ### Install Dependencies:
 
@@ -178,10 +178,8 @@ In the backend, there are DB initialization scripts that you need to run sequent
 
     ```bash
     python3 0_Build_DB.py 
-        python3 1_user_table.py
-    ...
-    ...
-    ...
+    python3 1_user_table.py
+    #More scripts are inobund
     ```
 ###### Continue to run any additional scripts in the same manner, ensuring that each script is executed in the correct order.
 
@@ -189,7 +187,9 @@ In the backend, there are DB initialization scripts that you need to run sequent
 
 In directory with run.py , run:
 
-```python3 run.py```
+```bash 
+python3 run.py
+```
 
 
 *The Flask application should now be running at http://127.0.0.1:5000/.*
@@ -199,8 +199,8 @@ In directory with run.py , run:
 #### The auth_bp blueprint is responsible for handling all authentication-related routes in the Flask application. Note this adds  /auth before a route so if it is /login and we wrap in this bp then it becomes /auth/login.  This includes:
 
 1. User login (/auth/login)
-    Explanation:
-    /auth/login - This route allows an existing user to log in by providing their email and password. On successful authentication, a JWT access token is generated and returned to the user.
+    ##### Explanation:
+    ###### /auth/login - This route allows an existing user to log in by providing their email and password. On successful authentication, a JWT access token is generated and returned to the user.
 
 #### main_bp is the generic blueprint where routes are not altered.
 
