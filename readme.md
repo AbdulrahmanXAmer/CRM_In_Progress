@@ -55,16 +55,16 @@ Before you start, make sure you have the following installed on your machine:
 
 ## To build the application for production
 
-    1. *If you're using npm:*
+1. *If you're using npm:*
 
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
 
-    2. *If you're using yarn*
-    ```bash 
-    yarn build
-    ```
+2. *If you're using yarn*
+```bash 
+yarn build
+```
 
 #### *This will create a build/ directory with your production files, which can then deploy to aws with goal to dockerize*
 
