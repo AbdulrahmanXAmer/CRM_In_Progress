@@ -23,10 +23,10 @@ Before you start, make sure you have the following installed on your machine:
 
     If you're using npm:
 
-        ```bash
+    ```bash
 
-        npm install
-        ```
+    npm install
+    ```
     If you're using yarn:
 
     ```bash 
