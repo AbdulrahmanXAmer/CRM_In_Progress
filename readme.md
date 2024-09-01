@@ -21,18 +21,17 @@ Before you start, make sure you have the following installed on your machine:
 
 2. **Install Dependencies:**
 
-### If you're using npm:
+    If you're using npm:
 
-```bash
+        ```bash
 
-npm install
-```
-### If you're using yarn:
+        npm install
+        ```
+    If you're using yarn:
 
-
-```bash 
-yarn install
-```
+    ```bash 
+    yarn install
+    ```
 
 3. **Start the Development Server**
 
